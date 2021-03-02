@@ -43,6 +43,7 @@ h2,
 h3,
 h4 {
     font-family: var(--fuenteHeading);
+    line-height: 1.2;
 }
 
 h1 {
@@ -59,6 +60,10 @@ h3 {
 
 h4 {
     font-size: 2.8rem;
+}
+
+img {
+    max-width: 100%;
 }
 
 
@@ -142,7 +147,7 @@ h4 {
 }
 
 .entrada {
-    border-bottom: 1.5px solid var(--gris);
+    border-bottom: 1.6px solid var(--gris);
     margin-bottom: 2rem;
 }
 
@@ -172,4 +177,36 @@ h4 {
 
 .boton--primario {
     background-color: var(--negro);
+}
+
+.boton--secundario {
+    background-color: var(--colorPrimario);
+}
+
+.cursos {
+    list-style: none;
+}
+
+.widget-curso {
+    border-bottom: 1.6px solid var(--gris);
+    margin-bottom: 2rem;
+}
+
+.widget-curso:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+
+.widget-curso__label {
+    font-family: var(--fuenteHeading);
+    font-weight: 700;
+}
+
+.widget-curso__info {
+    font-weight: 400;
+}
+
+.widget-curso__label,
+.widget-curso__info {
+    font-size: 2rem;
 }
