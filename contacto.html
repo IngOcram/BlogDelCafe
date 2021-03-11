@@ -42,18 +42,18 @@
 
         <div class="contacto-bg"></div>
 
-        <form class="formulario">
+        <form name="BlogDelCafe" class="formulario" netlify>
             <div class="campo">
                 <label class="campo__label" for="nombre">Nombre</label>
-                <input class="campo__field" type="text" placeholder="Tu nombre" id="nombre" required>
+                <input class="campo__field" type="text" placeholder="Tu nombre" id="nombre" name="nombre" required>
             </div>
             <div class="campo">
                 <label class="campo__label" for="email">Tu correo</label>
-                <input class="campo__field" type="email" placeholder="Tu Correo" id="email" required>
+                <input class="campo__field" type="email" placeholder="Tu Correo" id="email" name="email" required>
             </div>
             <div class="campo">
                 <label class="campo__label" for="mensaje">Mensaje</label>
-                <textarea class="campo__field campo__field--textarea" id="mensaje" required></textarea>
+                <textarea class="campo__field campo__field--textarea" id="mensaje" name="comentarios" required></textarea>
             </div>
             <div class="campo">
                 <input type="submit" value="Enviar" class="boton boton--primario">
